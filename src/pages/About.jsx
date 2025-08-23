@@ -1,10 +1,8 @@
-import Layout from '../components/Layout/Layout'
+import React from 'react'
 
 const About = () => {
   return (
-    <Layout>
-        <h1>About Page</h1>
-    </Layout>
+    <h1>About Page</h1>
   )
 }
 
