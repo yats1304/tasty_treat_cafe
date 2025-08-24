@@ -64,7 +64,7 @@ body, .home {
 
 @media screen and (max-width: 600px) {
   .home {
-    height: 100vh;
+    min-height: 84dvh;
     width: 100vw;
     display: flex;
     justify-content: center;      
@@ -78,22 +78,22 @@ body, .home {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;       
+    overflow: hidden;
+    background-attachment: fixed;  
     box-sizing: border-box; 
   }
 
   .headerContainer {
     width: 90vw;
     max-width: 380px;
-    padding: 36px 16px 28px 16px;
+    padding: 38px 16px 28px 16px;
     background: rgba(0,0,0,0.55);    
     border-radius: 16px;
     text-align: center;
     box-shadow: 0 6px 24px -8px rgba(0,0,0,0.4);
     position: relative;               
     z-index: 2;
-    top: 0;
-    
+    top: 0; 
   }
 
   .home .headerContainer h1 {
