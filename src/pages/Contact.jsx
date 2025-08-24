@@ -8,6 +8,7 @@ const Contact = () => {
     message: ""
   });
   const [submitted, setSubmitted] = useState(false);
+  const [hover, setHover] = useState(false);
 
   const handleChange = (e) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
@@ -71,16 +72,20 @@ const Contact = () => {
             />
             <button
               type="submit"
+              onMouseEnter={() => setHover(true)}
+              onMouseLeave={() => setHover(false)}
               style={{
-                backgroundColor: "#FFD600",
+                backgroundColor: hover ? "#FFC107" : "#FFD600",
                 border: "none",
                 padding: "12px 24px",
                 cursor: "pointer",
                 fontWeight: "bold",
-                width: "100%"
+                width: "100%",
+                transition: "background-color 0.3s ease",
+              color: "#000"
               }}
             >
-              Send
+                Send
             </button>
           </form>
         ) : (
