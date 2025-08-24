@@ -102,7 +102,7 @@ const Contact = () => {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.35776563743!2d72.7850474!3d19.70518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71d0000b220d3%3A0x2032194b7c392869!2sTasty%20treat%20cafe!5e1!3m2!1sen!2sin!4v1756011894012!5m2!1sen!2sin"
           width="100%"
           height="450"
-          style={{ border: 0, borderRadius: 8 }}
+          style={{ border: 0, borderRadius: 8, paddingBottom: "20px" }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

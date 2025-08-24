@@ -13,10 +13,10 @@ const Footer = () => {
         p: 1,
         mt: 'auto',
         boxShadow: '0 -4px 10px -3px rgba(0,0,0,0.6)',
-        position: 'sticky',
+        position: 'fixed',
         bottom: 0,
         width: '100%',
-        zIndex: 1000,
+        zIndex: 1300,
         mb: 'auto',
         overflow: 'hidden'
       }}

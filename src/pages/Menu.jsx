@@ -24,7 +24,8 @@ const Menu = () => {
                 borderRadius: 12,
                 padding: 12,
                 marginBottom: 20,
-                color: "#222"
+                color: "#222",
+                paddingBottom:"50px" ,
               }}
             >
               <img
@@ -66,7 +67,8 @@ const Menu = () => {
               width: "100%",
               minWidth: 320,
               overflow: "hidden",
-              color: "#222"
+              color: "#222",
+              paddingBottom: "50px",
             }}
           >
             <div

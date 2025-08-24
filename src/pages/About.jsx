@@ -60,7 +60,7 @@ const About = () => {
       {/* My credit */}
     <hr style={{ margin: '30px 0' }} />
 
-    <p style={{ fontSize: '0.9rem', color: '#666', textAlign: 'center', paddingBottom:"35px" }}>
+    <p style={{ fontSize: '0.9rem', color: '#666', textAlign: 'center', paddingBottom:"70px" }}>
       <em>
         Project developed by <strong>Yatish Chaubal</strong> —{" "}
         <a 
