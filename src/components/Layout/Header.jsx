@@ -1,5 +1,5 @@
 import { AppBar, Box, Divider, Drawer, IconButton, Toolbar, Typography } from '@mui/material'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import "../../styles/HeaderStyles.css"
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from 'react';
@@ -24,16 +24,16 @@ const drawer = (
         <Divider/>
             <ul className='mobile-navigation'>
               <li>
-                <Link to={'/'}>Home</Link>
+                <NavLink activeClassName="active" to={'/'}>Home</NavLink>
               </li>
               <li>
-                <Link to={'/menu'}>Menu</Link>
+                <NavLink to={'/menu'}>Menu</NavLink>
               </li>
               <li>
-                <Link to={'/about'}>About</Link>
+                <NavLink to={'/about'}>About</NavLink>
               </li>
               <li>
-                <Link to={'/contact'}>Contact</Link>
+                <NavLink to={'/contact'}>Contact</NavLink>
               </li>
             </ul>
   </Box>

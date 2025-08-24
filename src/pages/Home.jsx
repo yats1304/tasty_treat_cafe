@@ -8,9 +8,9 @@ const Home = () => {
       <div className="headerContainer">
         <h1>Tasty Treat Cafe</h1>
         <p>Flavor That Delight Every Bite</p>
-        <Link to="/menu">
+        <Link to="/menu" style={{ textDecoration: "none" }}>
           <button>
-            ORDER NOW
+            EXPLORE MENU
           </button>
         </Link>
       </div>
