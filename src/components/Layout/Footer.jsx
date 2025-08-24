@@ -37,7 +37,7 @@ const Footer = () => {
         }}
       >
         <a
-          href="https://www.google.com/maps/place/Tasty+treat+cafe/@19.70518,72.7850474,17z"
+          href="https://www.google.com/maps/place/Tasty+treat+cafe/@19.7050705,72.7850021,19.49z/data=!4m6!3m5!1s0x3be71d0000b220d3:0x2032194b7c392869!8m2!3d19.70518!4d72.7850474!16s%2Fg%2F11yg8w_vxz?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "inherit", textDecoration: "none" }}

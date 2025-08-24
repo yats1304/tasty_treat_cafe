@@ -1,22 +1,20 @@
-import Bites from '../images/bites.jpg';
-import Chinese from '../images/chinese.jpg';
-import Fries from '../images/fries.jpg';
-import Healthy from '../images/healthy.jpg';
-import Maggie from '../images/maggie.jpg';
+import Bites from '../images/bites.png';
+import Chinese from '../images/chinese.png';
+import Fries from '../images/fries.png';
+import Healthy from '../images/healthy.png';
+import Maggie from '../images/maggie.png';
 import Mocktails from '../images/mocktails.png';
-import Momos from '../images/momos.jpg';
-import NonVegPizza from '../images/non_veg_pizza.jpg';
+import Momos from '../images/momos.png';
 import Rice from '../images/rice.png';
-import RollNonVeg from '../images/roll_non_veg.jpg';
-import Roll from '../images/roll.jpg';
-import Sandwich from '../images/sandwich.jpg';
+import Roll from '../images/roll.png';
+import Sandwich from '../images/sandwich.png';
 import Shakes from '../images/shakes.png';
-import Sizzling from '../images/sizzling.jpg';
-import Snacks from '../images/snacks.jpg';
+import Sizzling from '../images/sizzling.png';
+import Snacks from '../images/snacks.png';
 import Tea from '../images/tea.png';
 import VegBurger from '../images/veg_burger.png';
-import VegPizza from '../images/veg_pizza.jpg';
-import Wrap from '../images/wrap.jpg';
+import VegPizza from '../images/veg_pizza.png';
+import Wrap from '../images/wrap.png';
 
 export const MenuList = [
 
