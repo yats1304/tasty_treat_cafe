@@ -15,7 +15,10 @@ const Footer = () => {
         boxShadow: '0 -4px 10px -3px rgba(0,0,0,0.6)',
         position: 'sticky',
         bottom: 0,
-        zIndex: 1000
+        width: '100%',
+        zIndex: 1000,
+        mb: 'auto',
+        overflow: 'hidden'
       }}
     >
       <Box

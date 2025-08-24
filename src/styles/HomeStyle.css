@@ -10,14 +10,6 @@
     background-image: url('../images/bg_tt.png'); 
 }
 
-/*Scroll Behaviour remover*/
-/*
-body, .home {
-    overflow: hidden;
-}
-*/
-
-
 .headerContainer{
     width: auto;
     margin-left: 30px;
