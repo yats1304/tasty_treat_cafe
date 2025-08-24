@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section style={{
       maxWidth: 800,
-      margin: '60px auto 40px auto',
+      margin: '80px auto 40px auto',
       padding: '0 20px',
       fontFamily: 'Segoe UI, Arial, sans-serif',
       color: '#222',
@@ -56,6 +56,24 @@ const About = () => {
       <p style={{fontSize: '1.1rem', lineHeight: 1.6}}>
         Come visit us and experience the perfect blend of taste and hospitality. Your next favorite dish awaits at <strong>Tasty Treat Cafe</strong> — <em>Flavor That Delights Every Bite</em>.
       </p>
+
+      {/* My credit */}
+    <hr style={{ margin: '30px 0' }} />
+
+    <p style={{ fontSize: '0.9rem', color: '#666', textAlign: 'center', paddingBottom:"35px" }}>
+      <em>
+        Project developed by <strong>Yatish Chaubal</strong> —{" "}
+        <a 
+          href="https://www.linkedin.com/in/yatish-chaubal-03331b206/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style={{ color: '#0077B5', textDecoration: 'none' }}
+        > 
+          LinkedIn Profile
+        </a>
+      </em>
+    </p>
+
     </section>
   );
 };
