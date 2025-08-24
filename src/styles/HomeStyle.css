@@ -1,0 +1,119 @@
+.home {
+    min-height: 81vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/bg_tt.png'); 
+}
+
+/*Scroll Behaviour remover*/
+body, .home {
+    overflow: hidden;
+}
+
+
+.headerContainer{
+    width: auto;
+    margin-left: 30px;
+}
+
+.home .headerContainer h1 {
+    color: #FFD600;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home .headerContainer p {
+    color: #ECECEC;
+    margin-top: 15px;
+    padding: 0;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.headerContainer button {
+    background-color: #FFD600;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    color: #111;
+    font-size: 20px;
+    transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+
+.headerContainer button:hover {
+    background-color: #FFC107;     
+    box-shadow: 0 8px 20px -8px rgba(40,40,40,0.2);
+    transform: translateY(-1px) scale(1.05); 
+}
+
+/* Mobile view */
+
+@media screen and (max-width: 600px) {
+  .home {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;      
+    align-items: center;         
+    padding: 0;
+    margin: 0;
+    padding-top: 120px;
+    padding-right: 30px;
+    position: relative;
+    background-image: url('../images/bg_mb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headerContainer {
+    width: 90vw;
+    max-width: 380px;
+    padding: 36px 16px 28px 16px;
+    background: rgba(0,0,0,0.55);    
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 6px 24px -8px rgba(0,0,0,0.4);
+    position: relative;               
+    z-index: 2;
+    top: -30px;
+  }
+
+  .home .headerContainer h1 {
+    color: #FFD600;
+    font-size: 2.1rem;
+    margin-bottom: 8px;
+    word-break: break-word;
+  }
+
+  .home .headerContainer p {
+    color: #F5F5F5;
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+  }
+
+  .headerContainer button {
+    width: 100%;
+    max-width: 320px;
+    height: 48px;
+    font-size: 1.15rem;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    display: block;
+    transition: background 0.23s, box-shadow 0.19s, transform 0.18s;
+  }
+  
+}

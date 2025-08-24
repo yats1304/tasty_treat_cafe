@@ -99,7 +99,7 @@ const drawer = (
           <Box>
             
           </Box>
-          <Box sx={{p:3}}>
+          <Box>
             <Toolbar/>
           </Box>
         </Box>
