@@ -26,7 +26,7 @@ const Contact = () => {
       <div style={{ marginBottom: 40 }}>
         <h2>Our Location</h2>
         <p>5, Shakti Udyog Nagar, Palghar 401404</p>
-        <p>Phone: +91</p>
+        <p>Phone: +91 8505889506</p>
         <p>Email: <a href="mailto:contact@tastytreatcafe.com" style={{ color: "#FFD600" }}>contact@tastytreatcafe.com</a></p>
         <p>Hours: Mon-Sun, 11:00 AM – 10:00 PM</p>
       </div>
@@ -90,7 +90,7 @@ const Contact = () => {
           </form>
         ) : (
           <p style={{ color: "#4CAF50", fontWeight: "bold" }}>
-            Thank you for contacting us! We will get back to you soon.
+            Thanks for your feedback!.
           </p>
         )}
       </div>

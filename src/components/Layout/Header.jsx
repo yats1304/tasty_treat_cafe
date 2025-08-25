@@ -19,7 +19,9 @@ const drawer = (
       component="div"
       sx={{ flexGrow: 1 , bgcolor:"#3d3836", height: "120px"}}
     >
-      <img src="/logo_tt.png" alt="Logo" width={180} height={150}/>
+        <Link to="/">
+          <img src="/logo_tt.png" alt="Logo" width={180} height={150} style={{ cursor: 'pointer' }} />
+        </Link>
         </Typography>
         <Divider/>
             <ul className='mobile-navigation'>
@@ -62,7 +64,9 @@ const drawer = (
                 component="div"
                 sx={{ flexGrow: 1 }}
               >
-                <img src="/logo_tt.png" alt="Logo" width={180} height={150}/>
+                 <Link to="/">
+                    <img src="/logo_tt.png" alt="Logo" width={180} height={150} style={{ cursor: 'pointer' }} />
+                  </Link>
               </Typography>
               <Box sx={{display: {xs: "none", sm: "block"} }}>
                 <ul className='navigation-menu'>
