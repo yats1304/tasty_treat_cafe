@@ -14,7 +14,7 @@ Perfect for customers to browse offerings and find cafe details easily.
 
 Customers can scan the QR code below on your table to open the menu and cafe information directly on their mobile devices.
 
-![WhatsApp Image 2025-08-24 at 16 39 39_87dd1472](https://github.com/user-attachments/assets/6a57c0f2-09bb-4d1a-8810-7785a297716a)
+<img src="https://github.com/user-attachments/assets/6a57c0f2-09bb-4d1a-8810-7785a297716a" alt="QR Code" width="150" />
 
 ---
 
