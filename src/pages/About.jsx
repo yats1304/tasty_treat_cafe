@@ -70,7 +70,16 @@ const About = () => {
           style={{ color: '#0077B5', textDecoration: 'none' }}
         > 
           LinkedIn Profile
-        </a>
+         </a>{" "}
+    |{" "}
+    <a
+      href="https://portfolio-bice-psi-56.vercel.app/"  // replace with your actual portfolio URL
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: '#0077B5', textDecoration: 'none' }}
+    >
+      Portfolio
+    </a>
       </em>
     </p>
 
